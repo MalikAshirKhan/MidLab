@@ -6,7 +6,7 @@ export default function Home({navigation}) {
         <Text style={{fontSize: 30, fontWeight: 'bold',}}>I'm in Home Screen</Text>
         <Button
             title="Go Back"
-            onPress={() => navigation.goBack()}
+            onPress={() => navigation.navigate('Home')}
         />
       </View>);
 }
