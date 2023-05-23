@@ -6,8 +6,8 @@ export default function Registration({navigation}) {
       <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Text>Name Screen</Text>
         <Button
-            title="Go to Home"
-            onPress={() => navigation.navigate('Claass')}
+            title="Go Back"
+            onPress={() => navigation.goBack()}
         />
       </View>
   );
