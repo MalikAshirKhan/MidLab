@@ -6,6 +6,11 @@ export default function App() {
     <View style={styles.container}>
       <Text>jyfjgfjgfjghg your app!</Text>
       <Button title={"Click me"} onPress={() => alert("Hello World")}/>
+      <Text style={{
+        color: "red",
+        fontSize: 30,
+        fontWeight: "bold"
+      }}>pa kuna de mnogay omndam</Text>
       <StatusBar style="auto" />
     </View>
   );
